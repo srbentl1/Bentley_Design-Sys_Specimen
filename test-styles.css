@@ -1,0 +1,12 @@
+:root {
+    --industrial-font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    --monospace-font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+
+    --font-display: var(--industrial-font-family);
+    --font-body: var(--monospace-font-family);
+
+}
+
+* {
+    box-sizing: border-box;
+}
