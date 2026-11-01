@@ -1,19 +1,15 @@
 :root {
     --industrial-font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
     --monospace-font-family: 'Nimbus Mono PS', 'Courier New', monospace;
-
     --font-display: var(--industrial-font-family);
     --font-body: var(--monospace-font-family);
-
-    --true-black: #000000;
+    --dark-red: #1b0002;
     --purple: #6a0dad;
     --slimy-green: #32cd32;
     --white: #f9f6ee;
     --charcoal-grey: #3f3f3f;
     --pumpkin-orange: #ff7518;
-
-
-    --color-background: var(--true-black);
+    --color-background: var(--dark-red);
     --color-banner: var(--purple);
     --color-text: var(--white);
     --color-card: var(--charcoal-grey);
@@ -34,15 +30,24 @@ body {
     line-height: 1.5;
 }
 
+header, h1, h2, h3, p {
+    margin: 0;
+}
+
 header {
     font-family: var(--font-display);
     background-color: var(--color-banner);
-    padding: .75rem;
+    padding: 1rem;
     text-align: center;
 }
 
 h1, h2, h3 {
     font-family: var(--font-display);
-    line-height: 1.2;
+    line-height: 1.5;
 } 
+
+main {
+    
+}
+
 
