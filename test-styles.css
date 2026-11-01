@@ -31,12 +31,13 @@ body {
     color: var(--color-text);
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 header {
     font-family: var(--font-display);
     background-color: var(--color-banner);
-    padding: 1rem;
+    padding: .75rem;
     text-align: center;
 }
 
@@ -44,3 +45,4 @@ h1, h2, h3 {
     font-family: var(--font-display);
     line-height: 1.2;
 } 
+
