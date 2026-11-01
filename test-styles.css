@@ -5,6 +5,20 @@
     --font-display: var(--industrial-font-family);
     --font-body: var(--monospace-font-family);
 
+    --color-true-black: #000000;
+    --color-purple: #6a0dad;
+    --color-slimy-green: #32cd32;
+    --color-white: #f9f6ee;
+    --color-charcoal-grey: #3f3f3f;
+    --color-pumpkin-orange: #ff7518;
+
+
+    --color-background: var(--color-true-black);
+    --color-banner: var(--color-purple);
+    --color-text: var(--color-white);
+    --color-card: var(--color-charcoal-grey);
+    --color-buttons: var(--color-slimy-green);
+    --color-focus: var(--color-pumpkin-orange);
 }
 
 * {
